@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Bash(*)"
+    ],
+    "deny": [
+      "Write",
+      "Edit",
+      "Update",
+      "Bash(git push*)",
+      "Bash(git commit*)",
+      "Bash(rm *)",
+      "Bash(echo *)",
+      "Bash(sed *)",
+      "Bash(mv *)",
+      "Bash(cp *)",
+      "Bash(mkdir *)",
+      "Bash(touch *)"
+    ]
+  }
+}
